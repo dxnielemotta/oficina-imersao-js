@@ -28,19 +28,3 @@ describe("pacote", () => {
     expect(result).toEqual(undefined);
   });
 });
-
-// describe("pacote", () => {
-//   test("Deve retornar pacote_intermediario quando o totalHorasPorProjeto for igual a 50", () => {
-//     const totalDeHorasPorProjeto = 50;
-//     const result = calcularPacote(totalDeHorasPorProjeto);
-//     expect(result).toEqual("pacote_intermediario");
-//   });
-// });
-
-// describe("pacote", () => {
-//   test("Deve retornar pacote_premium quando o totalHorasPorProjeto for maior que 100", () => {
-//     const totalDeHorasPorProjeto = 150;
-//     const result = calcularPacote(totalDeHorasPorProjeto);
-//     expect(result).toEqual("pacote_premium");
-//   });
-// });
